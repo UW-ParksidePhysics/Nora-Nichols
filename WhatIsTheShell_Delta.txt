@@ -1,0 +1,76 @@
+Last login: Thu Feb  6 14:01:33 on console
+maclab-114:~ nicho050$ comandenter
+-bash: comandenter: command not found
+maclab-114:~ nicho050$ comand_enter
+-bash: comand_enter: command not found
+maclab-114:~ nicho050$ date
+Thu Feb  6 14:49:01 CST 2020
+maclab-114:~ nicho050$ cal
+   February 2020      
+Su Mo Tu We Th Fr Sa  
+                   1  
+ 2  3  4  5  6  7  8  
+ 9 10 11 12 13 14 15  
+16 17 18 19 20 21 22  
+23 24 25 26 27 28 29  
+                      
+maclab-114:~ nicho050$ df
+Filesystem                       512-blocks      Used Available Capacity  iused               ifree %iused  Mounted on
+/dev/disk1s1                      489620264 271775304 212301456    57%  2021981 9223372036852753826    0%   /
+devfs                                   373       373         0   100%      646                   0  100%   /dev
+/dev/disk1s4                      489620264   4194344 212301456     2%        1 9223372036854775806    0%   /private/var/vm
+map -hosts                                0         0         0   100%        0                   0  100%   /net
+map auto_home                             0         0         0   100%        0                   0  100%   /home
+map -fstab                                0         0         0   100%        0                   0  100%   /Network/Servers
+//nicho050@uwpfs.ad.uwp.edu/Home  293392368 186939800 106452568    64% 23367473            13306571   64%   /Volumes/Home
+maclab-114:~ nicho050$ free
+-bash: free: command not found
+maclab-114:~ nicho050$ vm_stat
+Mach Virtual Memory Statistics: (page size of 4096 bytes)
+Pages free:                              163791.
+Pages active:                           1599385.
+Pages inactive:                         1561110.
+Pages speculative:                        49965.
+Pages throttled:                              0.
+Pages wired down:                        684905.
+Pages purgeable:                          10422.
+"Translation faults":                 197659573.
+Pages copy-on-write:                    9216188.
+Pages zero filled:                    120822919.
+Pages reactivated:                      1117991.
+Pages purged:                            476229.
+File-backed pages:                      1451297.
+Anonymous pages:                        1759163.
+Pages stored in compressor:              347794.
+Pages occupied by compressor:            134745.
+Decompressions:                          294742.
+Compressions:                           1868009.
+Pageins:                                5959590.
+Pageouts:                                  4079.
+Swapins:                                      0.
+Swapouts:                                     0.
+maclab-114:~ nicho050$ exit
+logout
+Saving session...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...none found.
+
+[Process completed]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

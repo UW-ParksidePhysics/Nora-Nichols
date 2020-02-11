@@ -1,0 +1,60 @@
+Last login: Tue Feb 11 14:39:38 on ttys000
+maclab-114:~ nicho050$ ls
+Desktop		Hello.docx	Music		PycharmProjects
+Documents	Library		Pictures	~$Hello.docx
+Downloads	Movies		Public
+maclab-114:~ nicho050$ ls /usr
+bin		libexec		sbin		standalone
+lib		local		share
+maclab-114:~ nicho050$ ls ~ /usr
+/Users/nicho050:
+Desktop		Hello.docx	Music		PycharmProjects
+Documents	Library		Pictures	~$Hello.docx
+Downloads	Movies		Public
+
+/usr:
+bin		libexec		sbin		standalone
+lib		local		share
+maclab-114:~ nicho050$ ls -lt
+total 32
+-rw-r--r--@  1 nicho050  UWP\Domain Users    162 Feb 11 15:09 ~$Hello.docx
+-rw-r--r--@  1 nicho050  UWP\Domain Users  11771 Feb 11 15:09 Hello.docx
+drwx------+  5 nicho050  UWP\Domain Users    160 Feb 11 15:05 Pictures
+drwx------+  4 nicho050  UWP\Domain Users    128 Feb 11 14:34 Documents
+drwx------@ 59 nicho050  UWP\Domain Users   1888 Feb  6 14:57 Library
+drwxr-xr-x   4 nicho050  UWP\Domain Users    128 Feb  4 15:00 PycharmProjects
+drwx------+  3 nicho050  UWP\Domain Users     96 Feb  4 13:56 Desktop
+drwx------+  3 nicho050  UWP\Domain Users     96 Feb  4 13:56 Downloads
+drwx------+  3 nicho050  UWP\Domain Users     96 Feb  4 13:56 Movies
+drwx------+  3 nicho050  UWP\Domain Users     96 Feb  4 13:56 Music
+drwxr-xr-x+  4 nicho050  UWP\Domain Users    128 Feb  4 13:56 Public
+maclab-114:~ nicho050$ ls -lt -r
+total 32
+drwxr-xr-x+  4 nicho050  UWP\Domain Users    128 Feb  4 13:56 Public
+drwx------+  3 nicho050  UWP\Domain Users     96 Feb  4 13:56 Music
+drwx------+  3 nicho050  UWP\Domain Users     96 Feb  4 13:56 Movies
+drwx------+  3 nicho050  UWP\Domain Users     96 Feb  4 13:56 Downloads
+drwx------+  3 nicho050  UWP\Domain Users     96 Feb  4 13:56 Desktop
+drwxr-xr-x   4 nicho050  UWP\Domain Users    128 Feb  4 15:00 PycharmProjects
+drwx------@ 59 nicho050  UWP\Domain Users   1888 Feb  6 14:57 Library
+drwx------+  4 nicho050  UWP\Domain Users    128 Feb 11 14:34 Documents
+drwx------+  5 nicho050  UWP\Domain Users    160 Feb 11 15:05 Pictures
+-rw-r--r--@  1 nicho050  UWP\Domain Users  11771 Feb 11 15:09 Hello.docx
+-rw-r--r--@  1 nicho050  UWP\Domain Users    162 Feb 11 15:09 ~$Hello.docx
+maclab-114:~ nicho050$ file Hello.docx
+Hello.docx: Microsoft Word 2007+
+maclab-114:~ nicho050$ file puppies.jpg
+puppies.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, progressive, precision 8, 760x430, frames 3
+maclab-114:~ nicho050$ less puppies.jpg
+"puppies.jpg" may be a binary file.  See it anyway? 
+maclab-114:~ nicho050$ less /etc/passwd
+maclab-114:~ nicho050$ exit
+logout
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...none found.
+
+[Process completed]
+

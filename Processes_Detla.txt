@@ -1,0 +1,304 @@
+Last login: Thu Feb 20 14:40:20 on ttys000
+maclab-114:~ nicho050$ ps
+  PID TTY           TIME CMD
+83899 ttys000    0:00.01 -bash
+maclab-114:~ nicho050$ ps x
+  PID   TT  STAT      TIME COMMAND
+42139   ??  S      0:00.21 /System/Library/Frameworks/LocalAuthentication.frame
+42140   ??  S      0:17.35 /usr/sbin/cfprefsd agent
+42170   ??  S      0:05.15 /usr/sbin/distnoted agent
+42178   ??  S      0:15.77 /usr/libexec/lsd
+42188   ??  S      0:00.45 /usr/libexec/languageassetd --firstLogin
+42214   ??  S      0:01.62 /System/Library/PrivateFrameworks/IMDPersistence.fra
+42274   ??  S      0:00.35 /System/Library/Frameworks/CoreServices.framework/Ve
+42339   ??  S      0:11.35 /usr/libexec/pkd
+42409   ??  S      0:00.23 /System/Library/PrivateFrameworks/CloudPhotoServices
+42443   ??  S      0:00.17 /System/Library/PrivateFrameworks/CloudServices.fram
+42493   ??  S      0:00.16 /System/Library/Frameworks/CryptoTokenKit.framework/
+42525   ??  S      0:00.18 /System/Library/CoreServices/Menu Extras/SafeEjectGP
+42587   ??  S      0:00.68 /System/Library/StagedFrameworks/Safari/SafariShared
+42621   ??  S      0:00.15 /System/Library/Frameworks/MediaAccessibility.framew
+42623   ??  S      0:00.45 /System/Library/PrivateFrameworks/ContextKit.framewo
+42877   ??  S      0:00.98 /System/Library/Frameworks/ApplicationServices.frame
+58503   ??  S      0:15.41 /System/Library/PrivateFrameworks/GeoServices.framew
+59119   ??  S      0:05.04 /usr/libexec/secinitd
+83126   ??  S      0:00.44 /usr/libexec/UserEventAgent (Aqua)
+83128   ??  S      0:00.25 /usr/sbin/universalaccessd launchd -s
+83130   ??  S      0:00.30 /System/Library/Frameworks/CoreTelephony.framework/S
+83139   ??  S      0:02.03 /usr/libexec/trustd --agent
+83142   ??  S      0:00.13 /usr/libexec/secd
+83152   ??  S      0:00.17 /System/Library/PrivateFrameworks/TelephonyUtilities
+83154   ??  S      0:00.37 /System/Library/PrivateFrameworks/CloudKitDaemon.fra
+83156   ??  S      0:00.32 /System/Library/Frameworks/Accounts.framework/Versio
+83157   ??  S      0:00.17 /System/Library/PrivateFrameworks/IDS.framework/iden
+83159   ??  S      0:00.10 /System/Library/PrivateFrameworks/IMCore.framework/i
+83160   ??  S      0:00.19 /System/Library/PrivateFrameworks/TCC.framework/Reso
+83161   ??  S      0:00.20 /usr/libexec/nsurlsessiond
+83165   ??  S      0:00.08 /System/Library/Frameworks/AddressBook.framework/Exe
+83171   ??  S      0:00.06 /usr/libexec/rapportd
+83172   ??  S      0:00.02 /System/Library/Frameworks/Security.framework/Versio
+83174   ??  S      0:00.18 /usr/sbin/usernoted
+83179   ??  S      0:00.60 /System/Library/CoreServices/NotificationCenter.app/
+83180   ??  S      0:00.36 /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+83181   ??  Ss     0:00.05 /System/Library/PrivateFrameworks/IMFoundation.frame
+83182   ??  S      0:00.13 /System/Library/PrivateFrameworks/MessagesKit.framew
+83184   ??  S      0:00.07 /usr/libexec/fmfd
+83185   ??  S      0:00.80 /usr/libexec/nsurlstoraged
+83186   ??  Ss     0:00.05 /System/Library/PrivateFrameworks/IMFoundation.frame
+83187   ??  S      0:00.04 /usr/libexec/pboard
+83188   ??  S      0:00.34 /usr/libexec/sharingd
+83189   ??  S      0:00.11 /System/Library/PrivateFrameworks/UserActivity.frame
+83190   ??  S      0:00.15 /System/Library/CoreServices/talagent
+83191   ??  S      0:00.92 /System/Library/Frameworks/ApplicationServices.frame
+83194   ??  S      0:00.19 /System/Library/CoreServices/sharedfilelistd
+83196   ??  S      0:00.22 /System/Library/PrivateFrameworks/ViewBridge.framewo
+83199   ??  Ss     0:00.02 /System/Library/PrivateFrameworks/IMFoundation.frame
+83200   ??  S      0:00.03 /usr/libexec/networkserviceproxy
+83201   ??  S      0:00.56 /System/Library/PrivateFrameworks/CalendarAgent.fram
+83202   ??  S      0:00.01 /System/Library/CoreServices/APFSUserAgent
+83205   ??  Ss     0:00.05 /System/Library/PrivateFrameworks/IMFoundation.frame
+83206   ??  S      0:01.16 /System/Library/PrivateFrameworks/CoreSuggestions.fr
+83207   ??  Ss     0:00.16 /System/Library/PrivateFrameworks/CalendarNotificati
+83208   ??  S      0:00.06 /System/Library/CoreServices/mapspushd
+83210   ??  S      0:00.14 /System/Library/CoreServices/CoreLocationAgent.app/C
+83212   ??  S      0:00.09 /System/Library/CoreServices/iconservicesagent
+83214   ??  S      0:00.05 /System/Library/PrivateFrameworks/CommerceKit.framew
+83215   ??  S      0:00.29 /System/Library/Frameworks/CoreServices.framework/Fr
+83216   ??  S      0:00.76 /System/Library/PrivateFrameworks/AssistantServices.
+83217   ??  S      0:00.06 /usr/libexec/swcd
+83218   ??  S      0:00.06 /System/Library/PrivateFrameworks/CloudDocsDaemon.fr
+83219   ??  S      0:00.03 /System/Library/PrivateFrameworks/FamilyCircle.frame
+83220   ??  S      0:00.04 /System/Library/CoreServices/backgroundtaskmanagemen
+83221   ??  S      0:01.01 /System/Library/CoreServices/WiFiAgent.app/Contents/
+83224   ??  S      0:00.09 /System/Library/PrivateFrameworks/AuthKit.framework/
+83226   ??  S      0:00.33 /System/Library/PrivateFrameworks/CommerceKit.framew
+83248   ??  S      0:23.44 /Applications/Safari.app/Contents/MacOS/Safari -psn_
+83255   ??  S      0:08.86 /Applications/Utilities/Terminal.app/Contents/MacOS/
+83257   ??  T      0:00.00 /Applications/Microsoft Word.app/Contents/MacOS/Micr
+83258   ??  S      0:01.27 /System/Library/CoreServices/Dock.app/Contents/MacOS
+83259   ??  S      0:00.45 /System/Library/CoreServices/SystemUIServer.app/Cont
+83260   ??  S      0:00.43 /System/Library/CoreServices/Finder.app/Contents/Mac
+83265   ??  S      0:00.51 /System/Library/CoreServices/Spotlight.app/Contents/
+83269   ??  Ss     0:00.13 /System/Library/Frameworks/VideoToolbox.framework/Ve
+83270   ??  S      0:00.52 /System/Library/PrivateFrameworks/CoreParsec.framewo
+83271   ??  Ss     0:00.21 /Applications/Utilities/Adobe Sync/CoreSync/Core Syn
+83274   ??  Ss     0:00.05 /System/Library/PrivateFrameworks/CoreWLANKit.framew
+83275   ??  Ss     0:00.01 /System/Library/PrivateFrameworks/login.framework/Ve
+83278   ??  S      0:00.19 /System/Library/CoreServices/CoreServicesUIAgent.app
+83280   ??  Ss     0:05.64 /System/Library/StagedFrameworks/Safari/WebKit.frame
+83283   ??  S      0:00.07 /System/Library/CoreServices/SafariSupport.bundle/Co
+83284   ??  S      0:00.37 /System/Library/CoreServices/SafariSupport.bundle/Co
+83287   ??  S      0:00.15 /usr/libexec/videosubscriptionsd
+83290   ??  S      0:00.04 /System/Library/CoreServices/pbs
+83292   ??  S      0:00.08 /System/Library/Frameworks/ApplicationServices.frame
+83297   ??  S      0:00.21 /usr/libexec/adprivacyd
+83300   ??  Ss     0:00.16 /System/Library/CoreServices/Dock.app/Contents/XPCSe
+83302   ??  S      0:00.02 /System/Library/PrivateFrameworks/CallHistory.framew
+83309   ??  S      0:00.01 SafeEjectGPUAgent
+83312   ??  S      0:00.06 /System/Library/PrivateFrameworks/CacheDelete.framew
+83347   ??  Ss     0:00.04 /System/Library/PrivateFrameworks/AssistantServices.
+83348   ??  S      0:00.18 /System/Library/Frameworks/AudioToolbox.framework/Au
+83349   ??  Ss     0:00.07 /System/Library/Frameworks/iTunesLibrary.framework/V
+83350   ??  S      0:00.42 /usr/libexec/knowledge-agent
+83351   ??  Ss     0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XP
+83352   ??  S      0:00.29 /System/Library/CoreServices/cloudphotosd.app/Conten
+83353   ??  S      0:00.98 /System/Library/PrivateFrameworks/AssistantServices.
+83354   ??  S      0:00.40 /System/Library/PrivateFrameworks/PhotoLibraryPrivat
+83355   ??  S      0:00.08 /System/Library/CoreServices/ScopedBookmarkAgent
+83358   ??  Ss     0:00.08 /System/Library/PrivateFrameworks/PhotoLibraryPrivat
+83359   ??  S      0:00.63 /System/Library/PrivateFrameworks/PhotoAnalysis.fram
+83360   ??  Ss     0:00.06 /System/Library/Frameworks/iTunesLibrary.framework/V
+83363   ??  S      0:00.05 /usr/libexec/siriknowledged
+83364   ??  Ss     0:00.02 /System/Library/PrivateFrameworks/FMClient.framework
+83371   ??  S      0:00.02 /System/Library/PrivateFrameworks/CoreSpeech.framewo
+83375   ??  S      0:00.02 /System/Library/CoreServices/SocialPushAgent.app/Con
+83377   ??  SN     0:00.08 /usr/local/jamf/bin/jamfAgent
+83378   ??  S      0:00.04 /usr/libexec/dmd
+83379   ??  S      0:00.08 /System/Library/Frameworks/InputMethodKit.framework/
+83380   ??  S      0:00.48 /System/Library/CoreServices/Siri.app/Contents/MacOS
+83381   ??  S      0:00.07 /System/Library/Image Capture/Support/icdd
+83384   ??  S      0:00.12 /Library/Application Support/Pharos/Notify.app/Conte
+83385   ??  S      0:00.10 /System/Library/CoreServices/AirPlayUIAgent.app/Cont
+83386   ??  S      0:00.05 /System/Library/CoreServices/cloudpaird
+83387   ??  S      0:11.33 /Applications/Utilities/Adobe Creative Cloud/ACC/Cre
+83388   ??  S      0:00.21 /System/Library/PrivateFrameworks/Noticeboard.framew
+83389   ??  S      0:00.06 /System/Library/CoreServices/diagnostics_agent
+83390   ??  S      0:00.16 /Library/Application Support/Malwarebytes/Malwarebyt
+83392   ??  S      0:00.02 /System/Library/Frameworks/CryptoTokenKit.framework/
+83398   ??  S      0:00.67 /Library/Application Support/Adobe/Adobe Desktop Com
+83399   ??  S      0:12.43 /Applications/Utilities/Adobe Creative Cloud/ACC/Cre
+83400   ??  Ss     0:00.04 /System/Library/Frameworks/VideoToolbox.framework/Ve
+83401   ??  S      0:03.86 /Library/Application Support/Adobe/Adobe Desktop Com
+83403   ??  S      0:01.08 /Applications/Utilities/Adobe Creative Cloud/ACC/Cre
+83404   ??  S      0:00.44 /Applications/Utilities/Adobe Creative Cloud/ACC/Cre
+83408   ??  S      0:01.05 /Library/Application Support/Adobe/Adobe Desktop Com
+83409   ??  S      0:00.70 /Library/Application Support/Adobe/Creative Cloud Li
+83414   ??  S      0:00.02 /System/Library/Frameworks/ColorSync.framework/Suppo
+83417   ??  S      0:13.82 /Applications/Utilities/Adobe Creative Cloud/ACC/Cre
+83421   ??  S      0:00.38 /Applications/Utilities/Adobe Sync/CoreSync/Core Syn
+83422   ??  S      0:00.54 /Applications/Utilities/Adobe Creative Cloud Experie
+83423   ??  S      0:01.39 /Applications/Utilities/Adobe Sync/CoreSync/Core Syn
+83428   ??  Ss     0:00.27 /System/Library/StagedFrameworks/Safari/SafariShared
+83429   ??  S      0:02.15 /System/Library/PrivateFrameworks/SafariSafeBrowsing
+83436   ??  S      0:00.02 /System/Library/CoreServices/Software Update.app/Con
+83440   ??  S      0:00.07 /System/Library/PrivateFrameworks/CommerceKit.framew
+83446   ??  S      0:00.47 /System/Library/PrivateFrameworks/CommerceKit.framew
+83447   ??  S      0:00.10 /System/Library/PrivateFrameworks/CommerceKit.framew
+83448   ??  Ss     0:00.04 /System/Library/PrivateFrameworks/CommerceKit.framew
+83449   ??  Ss     0:05.97 /System/Library/StagedFrameworks/Safari/WebKit.frame
+83473   ??  S      0:00.50 /System/Library/Services/AppleSpell.service/Contents
+83474   ??  S      0:00.11 /usr/libexec/keyboardservicesd
+83478   ??  S      0:00.02 /System/Library/CoreServices/EscrowSecurityAlert.app
+83481   ??  S      0:00.10 /System/Library/Frameworks/CoreServices.framework/Fr
+83482   ??  S      0:00.14 /System/Library/Frameworks/CoreServices.framework/Fr
+83484   ??  S      0:00.15 /System/Library/Frameworks/CoreServices.framework/Fr
+83488   ??  S      0:00.09 /System/Library/Frameworks/CoreServices.framework/Fr
+83491   ??  S      0:00.09 /System/Library/PrivateFrameworks/ProtectedCloudStor
+83494   ??  Ss     0:00.21 /System/Library/CoreServices/Siri.app/Contents/XPCSe
+83495   ??  Ss     0:00.65 /System/Library/StagedFrameworks/Safari/WebKit.frame
+83570   ??  S      0:00.40 /System/Library/PrivateFrameworks/AppStoreDaemon.fra
+83571   ??  S      0:00.07 /System/Library/PrivateFrameworks/IMDPersistence.fra
+83572   ??  S      0:00.09 /System/Library/PrivateFrameworks/CommerceKit.framew
+83574   ??  S      0:00.09 /usr/libexec/silhouette
+83575   ??  S      0:00.06 /System/Library/PrivateFrameworks/UsageTracking.fram
+83577   ??  S      0:00.03 /System/Library/PrivateFrameworks/QuickLookThumbnail
+83578   ??  Ss     0:00.11 /System/Library/PrivateFrameworks/PhotoLibraryPrivat
+83586   ??  Ss     0:05.69 /System/Library/StagedFrameworks/Safari/WebKit.frame
+83587   ??  Ss     0:00.11 /System/Library/Frameworks/Metal.framework/Versions/
+83589   ??  S      0:00.03 /System/Library/PrivateFrameworks/CoreFollowUp.frame
+83597   ??  Ss     0:12.13 /System/Library/StagedFrameworks/Safari/WebKit.frame
+83598   ??  S      0:00.24 /System/Library/Frameworks/ApplicationServices.frame
+83605   ??  Ss     0:00.06 /System/Library/Frameworks/Metal.framework/Versions/
+83643   ??  Ss     0:00.11 /Applications/Safari.app/Contents/XPCServices/com.ap
+83644   ??  S      0:00.01 /System/Library/Frameworks/CoreServices.framework/Fr
+83645   ??  S      0:00.07 /System/Library/Frameworks/CoreServices.framework/Fr
+83646   ??  S      0:05.74 /Applications/Preview.app/Contents/MacOS/Preview -ps
+83647   ??  Ss     0:00.03 /System/Library/PrivateFrameworks/XprotectFramework.
+83648   ??  S      0:00.11 /System/Library/Frameworks/CoreServices.framework/Fr
+83717   ??  Ss     0:00.06 /System/Library/PrivateFrameworks/AssistantServices.
+83787   ??  Ss     0:00.14 /System/Library/StagedFrameworks/Safari/WebKit.frame
+83788   ??  Ss     0:03.52 /System/Library/StagedFrameworks/Safari/WebKit.frame
+83789   ??  Ss     0:00.11 /System/Library/StagedFrameworks/Safari/WebKit.frame
+83790   ??  S      0:29.31 /Applications/PyCharm CE.app/Contents/MacOS/pycharm
+83794   ??  S      0:00.02 /Applications/PyCharm CE.app/Contents/bin/fsnotifier
+83840   ??  S      0:00.07 /System/Library/Frameworks/CoreServices.framework/Fr
+83841   ??  S      0:00.13 /System/Library/Frameworks/CoreServices.framework/Fr
+83842   ??  S      0:00.08 /System/Library/Frameworks/CoreServices.framework/Fr
+83843   ??  S      0:00.06 /System/Library/Frameworks/OpenGL.framework/Versions
+83870   ??  Ss     0:04.09 /System/Library/Frameworks/AppKit.framework/Versions
+83898 s000  Ss     0:00.01 login -pf nicho050
+83899 s000  S      0:00.01 -bash
+83906 s000  R+     0:00.00 ps x
+maclab-114:~ nicho050$ top
+maclab-114:~ nicho050$ xed -a TextEdit What_is_the_Shell.txt
+xed: invalid option -- a
+Options:
+    -x, --launch           Just launch Xcode with a new untitled document, don't wait on stdin.
+    -c, --create           Create the files if they do not exist.
+    -w, --wait             Wait for file to be closed by Xcode.
+    -l, --line <number>    Select line <number> after opening file.  Takes effect only on last file opened.
+    -b, --background       Leave Xcode as a background app after opening.
+    -h, --help             Show this information.
+    -v, --version          Print version information.
+maclab-114:~ nicho050$ xed -a TextEdit file.txt
+xed: invalid option -- a
+Options:
+    -x, --launch           Just launch Xcode with a new untitled document, don't wait on stdin.
+    -c, --create           Create the files if they do not exist.
+    -w, --wait             Wait for file to be closed by Xcode.
+    -l, --line <number>    Select line <number> after opening file.  Takes effect only on last file opened.
+    -b, --background       Leave Xcode as a background app after opening.
+    -h, --help             Show this information.
+    -v, --version          Print version information.
+maclab-114:~ nicho050$ xed -a TextEdit cd Documents
+xed: invalid option -- a
+Options:
+    -x, --launch           Just launch Xcode with a new untitled document, don't wait on stdin.
+    -c, --create           Create the files if they do not exist.
+    -w, --wait             Wait for file to be closed by Xcode.
+    -l, --line <number>    Select line <number> after opening file.  Takes effect only on last file opened.
+    -b, --background       Leave Xcode as a background app after opening.
+    -h, --help             Show this information.
+    -v, --version          Print version information.
+maclab-114:~ nicho050$ cd Documents
+maclab-114:Documents nicho050$ xed -a TextEdit Hello.txt
+xed: invalid option -- a
+Options:
+    -x, --launch           Just launch Xcode with a new untitled document, don't wait on stdin.
+    -c, --create           Create the files if they do not exist.
+    -w, --wait             Wait for file to be closed by Xcode.
+    -l, --line <number>    Select line <number> after opening file.  Takes effect only on last file opened.
+    -b, --background       Leave Xcode as a background app after opening.
+    -h, --help             Show this information.
+    -v, --version          Print version information.
+maclab-114:Documents nicho050$ xed -c TextEdit file.txt
+^C
+maclab-114:Documents nicho050$ xed -c TextEdit file.txt
+^C
+maclab-114:Documents nicho050$ xed -c TextEdit file.txt &
+[1] 83940
+maclab-114:Documents nicho050$ ps
+  PID TTY           TIME CMD
+83899 ttys000    0:00.03 -bash
+83940 ttys000    0:00.03 /Applications/Xcode.app/Contents/Developer/usr/bin/xed
+
+[1]+  Stopped                 xed -c TextEdit file.txt
+maclab-114:Documents nicho050$ jobs
+[1]+  Stopped                 xed -c TextEdit file.txt
+maclab-114:Documents nicho050$ 
+maclab-114:Documents nicho050$ jobs
+[1]+  Stopped                 xed -c TextEdit file.txt
+maclab-114:Documents nicho050$ fg %1
+xed -c TextEdit file.txt
+^C
+maclab-114:Documents nicho050$ xed -c TextEdit file.txt
+^C
+maclab-114:Documents nicho050$ bg %1
+-bash: bg: %1: no such job
+maclab-114:Documents nicho050$ xed -c TextEdit file.txt
+bg %1
+^C
+maclab-114:Documents nicho050$ xed -c TextEdit file.txt
+^Z
+[1]+  Stopped                 xed -c TextEdit file.txt
+maclab-114:Documents nicho050$ bg %1
+[1]+ xed -c TextEdit file.txt &
+
+[1]+  Stopped                 xed -c TextEdit file.txt
+maclab-114:Documents nicho050$ xed -c TextEdit file.txt &
+[2] 84010
+maclab-114:Documents nicho050$ kill -1 84010
+
+[2]+  Stopped                 xed -c TextEdit file.txt
+maclab-114:Documents nicho050$ xed -c TextEdit file.txt &
+[3] 84011
+[2]   Hangup: 1               xed -c TextEdit file.txt
+maclab-114:Documents nicho050$ kill -INT 84011
+
+[3]+  Stopped                 xed -c TextEdit file.txt
+maclab-114:Documents nicho050$ xed -c TextEdit file.txt &
+[4] 84012
+[3]   Interrupt: 2            xed -c TextEdit file.txt
+maclab-114:Documents nicho050$ kill -SIGINT 84012
+
+[4]+  Stopped                 xed -c TextEdit file.txt
+maclab-114:Documents nicho050$ xed -c TextEdit file.txt &
+[5] 84013
+[4]   Interrupt: 2            xed -c TextEdit file.txt
+maclab-114:Documents nicho050$ xed -c TextEdit file.txt &
+[6] 84014
+
+[5]+  Stopped                 xed -c TextEdit file.txt
+maclab-114:Documents nicho050$ killall xed -c TextEdit file.txt
+[1]   Terminated: 15          xed -c TextEdit file.txt
+[5]-  Terminated: 15          xed -c TextEdit file.txt
+[6]+  Terminated: 15          xed -c TextEdit file.txt
+maclab-114:Documents nicho050$ exit
+logout
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+[Process completed]
+

@@ -1,0 +1,38 @@
+Last login: Tue Feb 18 14:29:11 on ttys000
+maclab-122:~ nicol011$ ls
+Desktop					Manipulating Files and Directories.txt	Public
+Documents				Movies					PycharmProjects
+Downloads				Music
+Library					Pictures
+maclab-122:~ nicol011$ ls ls-output.txt
+ls: ls-output.txt: No such file or directory
+maclab-122:~ nicol011$ ls Documents/
+anicolas.txt
+maclab-122:~ nicol011$ history | less
+maclab-122:~ nicol011$ history | grep /usr/bin
+  126  history | grep /usr/bin
+maclab-122:~ nicol011$ !126
+history | grep /usr/bin
+  126  history | grep /usr/bin
+  127  history | grep /usr/bin
+maclab-122:~ nicol011$ history | grep /usr/bin
+  126  history | grep /usr/bin
+  127  history | grep /usr/bin
+  128  history | grep /usr/bin
+maclab-122:~ nicol011$ history | grep /usr/bin
+  126  history | grep /usr/bin
+  127  history | grep /usr/bin
+  128  history | grep /usr/bin
+  129  history | grep /usr/bin
+maclab-122:~ nicol011$ ls -l /usr/bin > ls-output.txt
+maclab-122:~ nicol011$ exit
+logout
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...none found.
+
+
+[Process completed]
+

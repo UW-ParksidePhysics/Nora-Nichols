@@ -1,0 +1,92 @@
+Last login: Thu Feb 13 14:01:18 on console
+maclab-122:~ nicol011$ cd 
+maclab-122:~ nicol011$ mkdir playground
+maclab-122:~ nicol011$ cd playground
+maclab-122:playground nicol011$ mkdir dir1 dir2
+maclab-122:playground nicol011$ cp /etc/passwd .
+maclab-122:playground nicol011$ ls -l
+total 16
+drwxr-xr-x  2 nicol011  UWP\Domain Users    64 Feb 13 14:25 dir1
+drwxr-xr-x  2 nicol011  UWP\Domain Users    64 Feb 13 14:25 dir2
+-rw-r--r--  1 nicol011  UWP\Domain Users  6804 Feb 13 14:26 passwd
+maclab-122:playground nicol011$ cp -v /etc/passwd
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+maclab-122:playground nicol011$ cp -v /etc/passwd .
+/etc/passwd -> ./passwd
+maclab-122:playground nicol011$ cp -i /etc/passwd .
+overwrite ./passwd? (y/n [n]) y
+maclab-122:playground nicol011$ mv passwd fun
+maclab-122:playground nicol011$ mv fun dir1
+maclab-122:playground nicol011$ mv dir1/fun dir2
+maclab-122:playground nicol011$ mv dir2/fun/ .
+mv: rename dir2/fun/ to ./fun/: Not a directory
+maclab-122:playground nicol011$ mv dir2/fun .
+maclab-122:playground nicol011$ mv fun dir1
+maclab-122:playground nicol011$ mv dir1 dir2
+maclab-122:playground nicol011$ ls -l dir2
+total 0
+drwxr-xr-x  3 nicol011  UWP\Domain Users  96 Feb 13 14:29 dir1
+maclab-122:playground nicol011$ ls -l dir2/dir1
+total 16
+-rw-r--r--  1 nicol011  UWP\Domain Users  6804 Feb 13 14:27 fun
+maclab-122:playground nicol011$ mv dir2/dir1 .
+maclab-122:playground nicol011$ mv dir1/fun .
+maclab-122:playground nicol011$ ln fun fun-hard
+maclab-122:playground nicol011$ ln fun dir1/fun-hard
+maclab-122:playground nicol011$ ln fun dir2/fun-hard
+maclab-122:playground nicol011$ ls -l
+total 32
+drwxr-xr-x  3 nicol011  UWP\Domain Users    96 Feb 13 14:32 dir1
+drwxr-xr-x  3 nicol011  UWP\Domain Users    96 Feb 13 14:32 dir2
+-rw-r--r--  4 nicol011  UWP\Domain Users  6804 Feb 13 14:27 fun
+-rw-r--r--  4 nicol011  UWP\Domain Users  6804 Feb 13 14:27 fun-hard
+maclab-122:playground nicol011$ ls -li
+total 32
+5142942 drwxr-xr-x  3 nicol011  UWP\Domain Users    96 Feb 13 14:32 dir1
+5142943 drwxr-xr-x  3 nicol011  UWP\Domain Users    96 Feb 13 14:32 dir2
+5142944 -rw-r--r--  4 nicol011  UWP\Domain Users  6804 Feb 13 14:27 fun
+5142944 -rw-r--r--  4 nicol011  UWP\Domain Users  6804 Feb 13 14:27 fun-hard
+maclab-122:playground nicol011$ ln -s fun fun-sym
+maclab-122:playground nicol011$ ln -s ../fun dir1/fun-sym
+maclab-122:playground nicol011$ ln -s ../fun dir2/fun-sym
+maclab-122:playground nicol011$ ls -l dir1
+total 16
+-rw-r--r--  4 nicol011  UWP\Domain Users  6804 Feb 13 14:27 fun-hard
+lrwxr-xr-x  1 nicol011  UWP\Domain Users     6 Feb 13 14:33 fun-sym -> ../fun
+maclab-122:playground nicol011$ rm fun-hard
+maclab-122:playground nicol011$ ls -l
+total 16
+drwxr-xr-x  4 nicol011  UWP\Domain Users   128 Feb 13 14:33 dir1
+drwxr-xr-x  4 nicol011  UWP\Domain Users   128 Feb 13 14:34 dir2
+-rw-r--r--  3 nicol011  UWP\Domain Users  6804 Feb 13 14:27 fun
+lrwxr-xr-x  1 nicol011  UWP\Domain Users     3 Feb 13 14:33 fun-sym -> fun
+maclab-122:playground nicol011$ rm -i fun
+remove fun? y
+maclab-122:playground nicol011$ ls -l
+total 0
+drwxr-xr-x  4 nicol011  UWP\Domain Users  128 Feb 13 14:33 dir1
+drwxr-xr-x  4 nicol011  UWP\Domain Users  128 Feb 13 14:34 dir2
+lrwxr-xr-x  1 nicol011  UWP\Domain Users    3 Feb 13 14:33 fun-sym -> fun
+maclab-122:playground nicol011$ less fun-sym
+fun-sym: No such file or directory
+maclab-122:playground nicol011$ rm fun-sym
+maclab-122:playground nicol011$ rm fun-sym dir1-sym
+rm: fun-sym: No such file or directory
+rm: dir1-sym: No such file or directory
+maclab-122:playground nicol011$ ls -l
+total 0
+drwxr-xr-x  4 nicol011  UWP\Domain Users  128 Feb 13 14:33 dir1
+drwxr-xr-x  4 nicol011  UWP\Domain Users  128 Feb 13 14:34 dir2
+maclab-122:playground nicol011$ cd
+maclab-122:~ nicol011$ rm -r playground
+maclab-122:~ nicol011$ exit
+logout
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...none found.
+
+[Process completed]
+

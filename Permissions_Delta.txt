@@ -1,0 +1,90 @@
+Last login: Tue Feb 18 14:30:27 on ttys000
+maclab-122:~ nicol011$ file /etc/shadow
+/etc/shadow: cannot open `/etc/shadow' (No such file or directory)
+maclab-122:~ nicol011$ less /etc/shadow
+/etc/shadow: No such file or directory
+maclab-122:~ nicol011$ id
+uid=1378971428(nicol011) gid=1116625352(UWP\Domain Users) groups=1116625352(UWP\Domain Users),12(everyone),62(netaccounts),41677413(UWP\2020-SPRG-ENGL-167-001),125416489(UWP\2020-SPRG-PHYS-241-001),268967124(UWP\2020-SPRG-PHYS-495-001),573945132(UWP\DL_ALL-ENRL-CUR-TRM_A),973200821(UWP\2020-SPRG-PHYS-303-001),1179213447(UWP\DL_ALL-ENRL-P2-CUR-F1_A),1239965828(UWP\2019-FALL-PHYS-202-001),1463584807(UWP\2019-FALL-MATH-301-001),1484155388(UWP\2019-SPRG-FIN-234-001),2062437397(UWP\2019-FALL-PHYS-205-001),2093960476(UWP\2019-SPRG-MATH-223-001),183986618(UWP\2019-SPRG-ENGL-101-015),219400799(UWP\DL_ADV-LEWISB),563796156(UWP\2019-SUM-BUS-100-M31),710279956(UWP\2019-SPRG-PHYS-201-001),826194757(UWP\2019-FALL-MATH-317-001),884829712(UWP\DL_ALL-EMPL-STUD_A),1427030562(UWP\Student Users),1737851202(UWP\2020-SPRG-PHYS-403-001),1981629663(UWP\DL_STU-ENRL-CUR-UGRD_A),2124421418(UWP\PSO All Campus),702(com.apple.sharepoint.group.2),701(com.apple.sharepoint.group.1),333250915(UWP\Publisher),376089144(UWP\CTX-Mathematica),1102773013(UWP\Windows Explorer),1535688893(UWP\PS Elements),1953500456(UWP\Parkside-Campus Info-traverse),2110368857(UWP\SSH),178840370(UWP\Internet Explorer),183735245(UWP\Accessories),336527048(UWP\CreativeServices-Public-full),714050089(UWP\InfoPath),739946822(UWP\Notepad_Plus),839023789(UWP\Visio),993404883(UWP\Project),1111887947(UWP\Parkside-Campus Info-Leadership-read),1136397987(UWP\Horizon Remote Access),1289955258(UWP\Emergency List),1371522217(UWP\Adobe Reader),1432469368(UWP\Office),1458183425(UWP\Notepad),1875240670(UWP\IBM Director Client),2144369774(UWP\SPSS)
+maclab-122:~ nicol011$ > foo.txt
+maclab-122:~ nicol011$ ls -l foo.txt
+-rw-r--r--  1 nicol011  UWP\Domain Users  0 Feb 18 14:57 foo.txt
+maclab-122:~ nicol011$ chmod 600 foo.txt
+maclab-122:~ nicol011$ ls -l foo.txt
+-rw-------  1 nicol011  UWP\Domain Users  0 Feb 18 14:57 foo.txt
+maclab-122:~ nicol011$ rm -f foo.txt
+maclab-122:~ nicol011$ umask
+0022
+maclab-122:~ nicol011$ > foo.txt
+maclab-122:~ nicol011$ ls -l foo.txt
+-rw-r--r--  1 nicol011  UWP\Domain Users  0 Feb 18 14:58 foo.txt
+maclab-122:~ nicol011$ rm foo.txt
+maclab-122:~ nicol011$ umask 0000
+maclab-122:~ nicol011$ > foo.txt
+maclab-122:~ nicol011$ ls -l foo.txt
+-rw-rw-rw-  1 nicol011  UWP\Domain Users  0 Feb 18 14:59 foo.txt
+maclab-122:~ nicol011$ su -
+Password:
+maclab-122:~ nicol011$ su -
+Password:
+su: Sorry
+maclab-122:~ nicol011$ su -c 'ls -l /root/*'
+su: illegal option -- c
+usage: su [-] [-flm] [login [args]]
+maclab-122:~ nicol011$ sudo backup_script
+Password:
+maclab-122:~ nicol011$ 
+maclab-122:~ nicol011$ sudo -l
+Password:
+maclab-122:~ nicol011$ 
+maclab-122:~ nicol011$ sudo cp myfile.txt ~tony
+Password:
+maclab-122:~ nicol011$ sudo ls -l ~tony/myfile.txt
+Password:
+maclab-122:~ nicol011$ sudo chown tony: ~tony/myfile.txt
+Password:
+maclab-122:~ nicol011$ sudo backup_script
+Password:
+nicol011 is not in the sudoers file.  This incident will be reported.
+maclab-122:~ nicol011$ sudo ls -l ~tony/myfile.txt
+Password:
+maclab-122:~ nicol011$ sudo mkdir /usr/local/share/Music
+Password:
+maclab-122:~ nicol011$ ls -ld /usr/local/share/Music
+ls: /usr/local/share/Music: No such file or directory
+maclab-122:~ nicol011$ sudo chown :music /usr/local/share/Music
+Password:
+maclab-122:~ nicol011$ sudo chmod 775 /usr/local/share/Music
+Password:
+maclab-122:~ nicol011$ ls -ld /usr/local/
+.com.apple.installer.keep  bin/                       jamf/                      
+maclab-122:~ nicol011$ ls -ld /usr/local/share/Music
+ls: /usr/local/share/Music: No such file or directory
+maclab-122:~ nicol011$ > /usr/local/share/Music/test_file
+-bash: /usr/local/share/Music/test_file: No such file or directory
+maclab-122:~ nicol011$ ls -l /usr/local/share/Music
+ls: /usr/local/share/Music: No such file or directory
+maclab-122:~ nicol011$ sudo chmod g+s /usr/local/share/Music
+Password:
+maclab-122:~ nicol011$ ls -ld /usr/local/share/Music
+ls: /usr/local/share/Music: No such file or directory
+maclab-122:~ nicol011$ umask 0002
+maclab-122:~ nicol011$ rm /usr/local/share/Music/test_file
+rm: /usr/local/share/Music/test_file: No such file or directory
+maclab-122:~ nicol011$ > /usr/local/share/Music/test_file
+-bash: /usr/local/share/Music/test_file: No such file or directory
+maclab-122:~ nicol011$ mkdir /usr/local/share/Music/test_dir
+mkdir: /usr/local/share/Music: No such file or directory
+maclab-122:~ nicol011$ ls -l /usr/local/share/Music
+ls: /usr/local/share/Music: No such file or directory
+maclab-122:~ nicol011$ passwd
+Changing password for nicol011.
+Old Password:
+maclab-122:~ nicol011$ exit
+logout
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+[Process completed]
+

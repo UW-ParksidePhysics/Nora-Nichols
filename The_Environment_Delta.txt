@@ -1,0 +1,59 @@
+Last login: Thu Feb 20 14:01:00 on console
+maclab-122:~ nicol011$ printenv | less
+maclab-122:~ nicol011$ printenv USER 
+nicol011
+maclab-122:~ nicol011$ set | less
+maclab-122:~ nicol011$ echo $HOME
+/Users/nicol011
+maclab-122:~ nicol011$ alias
+maclab-122:~ nicol011$ foo="this is some "
+maclab-122:~ nicol011$ echo $foo
+this is some
+maclab-122:~ nicol011$ foo=$foo"
+> foo=$foo"text"
+> echo $foo
+> 
+maclab-122:~ nicol011$ echo $foo
+this is some
+maclab-122:~ nicol011$ foo=$foo"text"
+maclab-122:~ nicol011$ echo $foo
+this is some text
+maclab-122:~ nicol011$ gedit some_file
+-bash: gedit: command not found
+maclab-122:~ nicol011$ open -a TextEdit anicolas.txt
+The file /Users/nicol011/anicolas.txt does not exist.
+maclab-122:~ nicol011$ ls
+Advanced_Keyboard_Tricks_Delta.txt	Manipulating Files and Directories.txt	Public
+Desktop					Movies					PycharmProjects
+Documents				Music					foo.txt
+Downloads				Permissions_Delta.txt			ls-output.txt
+Library					Pictures
+maclab-122:~ nicol011$ cd Documents
+maclab-122:Documents nicol011$ open -a TextEdit anicolas.txt
+maclab-122:Documents nicol011$ cd ..
+maclab-122:~ nicol011$ cd Documents
+maclab-122:Documents nicol011$ open -a TextEdit anicolas.txt
+maclab-122:Documents nicol011$ umask 0002
+maclab-122:Documents nicol011$ export HISTCONTROL=ignoredups
+maclab-122:Documents nicol011$ export HISTSIZE=1000
+maclab-122:Documents nicol011$ alias l.='ls -d .* --color=auto'
+maclab-122:Documents nicol011$ alias ll='ls -l --color=auto'
+maclab-122:Documents nicol011$ # Change umask to make directory sharing easier
+maclab-122:Documents nicol011$ # Ignore duplicates in command history and increase
+maclab-122:Documents nicol011$ # History size to 1000 lines
+maclab-122:Documents nicol011$ # Add some helpful aliases
+maclab-122:Documents nicol011$ source .bashrc
+-bash: .bashrc: No such file or directory
+maclab-122:Documents nicol011$ ll
+ls: illegal option -- -
+usage: ls [-ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1] [file ...]
+maclab-122:Documents nicol011$ exit
+logout
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...none found.
+
+[Process completed]
+

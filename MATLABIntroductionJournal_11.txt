@@ -1,0 +1,214 @@
+diary off
+a=7; b=cos(a), c=cosh(a)
+
+b =
+
+    0.7539
+
+
+c =
+
+  548.3170
+
+lookfor inverse
+<a href="matlab:help betaincinv">betaincinv</a>                     - Inverse incomplete beta function.
+<a href="matlab:help erfcinv">erfcinv</a>                        - Inverse complementary error function.
+<a href="matlab:help erfinv">erfinv</a>                         - Inverse error function.
+<a href="matlab:help gammaincinv">gammaincinv</a>                    - Inverse incomplete gamma function.
+<a href="matlab:help invhilb">invhilb</a>                        - Inverse Hilbert matrix.
+<a href="matlab:help ipermute">ipermute</a>                       - Inverse permute array dimensions.
+<a href="matlab:help dramadah">dramadah</a>                       - Matrix of zeros and ones with large determinant or inverse.
+<a href="matlab:help invhess">invhess</a>                        - Inverse of an upper Hessenberg matrix.
+<a href="matlab:help extractgridvectors">extractgridvectors</a>             - inverse of NDGRID
+<a href="matlab:help inv">inv</a>                            - Matrix inverse.
+<a href="matlab:help pinv">pinv</a>                           - Pseudoinverse.
+<a href="matlab:help acos">acos</a>                           - Inverse cosine, result in radians.
+<a href="matlab:help acosd">acosd</a>                          - Inverse cosine, result in degrees.
+<a href="matlab:help acosh">acosh</a>                          - Inverse hyperbolic cosine.
+<a href="matlab:help acot">acot</a>                           - Inverse cotangent, result in radian.
+<a href="matlab:help acotd">acotd</a>                          - Inverse cotangent, result in degrees.
+<a href="matlab:help acoth">acoth</a>                          - Inverse hyperbolic cotangent.
+<a href="matlab:help acsc">acsc</a>                           - Inverse cosecant, result in radian.
+<a href="matlab:help acscd">acscd</a>                          - Inverse cosecant, result in degrees.
+<a href="matlab:help acsch">acsch</a>                          - Inverse hyperbolic cosecant.
+<a href="matlab:help asec">asec</a>                           - Inverse secant, result in radians.
+<a href="matlab:help asecd">asecd</a>                          - Inverse secant, result in degrees.
+<a href="matlab:help asech">asech</a>                          - Inverse hyperbolic secant.
+<a href="matlab:help asin">asin</a>                           - Inverse sine, result in radians.
+<a href="matlab:help asind">asind</a>                          - Inverse sine, result in degrees.
+<a href="matlab:help asinh">asinh</a>                          - Inverse hyperbolic sine.
+<a href="matlab:help atan">atan</a>                           - Inverse tangent, result in radians.
+<a href="matlab:help atan2">atan2</a>                          - Four quadrant inverse tangent.
+<a href="matlab:help atan2d">atan2d</a>                         - Four quadrant inverse tangent, result in degrees.
+<a href="matlab:help atand">atand</a>                          - Inverse tangent, result in degrees.
+<a href="matlab:help atanh">atanh</a>                          - Inverse hyperbolic tangent.
+<a href="matlab:help ifft">ifft</a>                           - Inverse discrete Fourier transform.
+<a href="matlab:help ifft2">ifft2</a>                          - Two-dimensional inverse discrete Fourier transform.
+<a href="matlab:help ifftn">ifftn</a>                          - N-dimensional inverse discrete Fourier transform.
+<a href="matlab:help ifftshift">ifftshift</a>                      - Inverse FFT shift.
+<a href="matlab:help betaincinv">betaincinv</a>                     - Inverse incomplete beta function.
+<a href="matlab:help gammaincinv">gammaincinv</a>                    - Inverse incomplete gamma function.
+<a href="matlab:help ipermute">ipermute</a>                       - Inverse permute array dimensions.
+<a href="matlab:help acos">acos</a>                           - Symbolic inverse cosine.
+<a href="matlab:help acosd">acosd</a>                          - Inverse cosine, result in degrees.
+<a href="matlab:help acosh">acosh</a>                          - Symbolic inverse hyperbolic cosine.
+<a href="matlab:help acot">acot</a>                           - Symbolic inverse cotangent.
+<a href="matlab:help acotd">acotd</a>                          - sind Inverse cotangent, result in degrees.
+<a href="matlab:help acoth">acoth</a>                          - Symbolic inverse hyperbolic cotangent.
+<a href="matlab:help acsc">acsc</a>                           - Symbolic inverse cosecant.
+<a href="matlab:help acscd">acscd</a>                          - Inverse cosecant, result in degrees.
+<a href="matlab:help acsch">acsch</a>                          - Symbolic inverse hyperbolic cosecant.
+<a href="matlab:help asec">asec</a>                           - Symbolic inverse secant.
+<a href="matlab:help asecd">asecd</a>                          - Inverse secant, result in degrees.
+<a href="matlab:help asech">asech</a>                          - Symbolic inverse hyperbolic secant.
+<a href="matlab:help asin">asin</a>                           - Symbolic inverse sine.
+<a href="matlab:help asind">asind</a>                          - Inverse sine, result in degrees.
+<a href="matlab:help asinh">asinh</a>                          - Symbolic inverse hyperbolic sine.
+<a href="matlab:help atan">atan</a>                           - Symbolic inverse tangent.
+<a href="matlab:help atan2">atan2</a>                          - Symbolic four quadrant inverse tangent
+<a href="matlab:help atand">atand</a>                          - Inverse tangent, result in degrees.
+<a href="matlab:help atanh">atanh</a>                          - Symbolic inverse hyperbolic tangent.
+<a href="matlab:help erfcinv">erfcinv</a>                        - Y = ERFCINV(X) Inverse complementary error function.
+<a href="matlab:help erfinv">erfinv</a>                         - Y = ERFINV(X) Inverse error function.
+<a href="matlab:help finverse">finverse</a>                       - Functional inverse.
+<a href="matlab:help ifourier">ifourier</a>                       - Inverse Fourier integral transform.
+<a href="matlab:help ihtrans">ihtrans</a>                        - Inverse Hilbert transform.
+<a href="matlab:help ilaplace">ilaplace</a>                       - Inverse Laplace transform.
+<a href="matlab:help inv">inv</a>                            - Symbolic matrix inverse.
+<a href="matlab:help iztrans">iztrans</a>                        - Inverse Z-transform.
+<a href="matlab:help pinv">pinv</a>                           - Pseudo inverse of a symbolic matrix A.
+help sqrt
+ <strong>sqrt</strong>   Square root.
+    <strong>sqrt</strong>(X) is the square root of the elements of X. Complex 
+    results are produced if X is not positive.
+ 
+    See also <a href="matlab:help sqrtm">sqrtm</a>, <a href="matlab:help realsqrt">realsqrt</a>, <a href="matlab:help hypot">hypot</a>.
+
+    <a href="matlab:doc sqrt">Documentation for sqrt</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('sqrt')">Other functions named sqrt</a>
+
+sqrt(-25)
+
+ans =
+
+   0.0000 + 5.0000i
+
+doc plot
+lookfor exponent
+<a href="matlab:help expint">expint</a>                         - Exponential integral function.
+<a href="matlab:help expm">expm</a>                           - Matrix exponential.
+<a href="matlab:help exp">exp</a>                            - Exponential.
+<a href="matlab:help expmdemo1">expmdemo1</a>                      - Matrix exponential via Pade approximation.
+<a href="matlab:help expmdemo2">expmdemo2</a>                      - Matrix exponential via Taylor series.
+<a href="matlab:help expmdemo3">expmdemo3</a>                      - Matrix exponential via eigenvalues and eigenvectors.
+<a href="matlab:help factorIntegerPower">factorIntegerPower</a>             - Rewrite integer as power with maximal exponent
+<a href="matlab:help ei">ei</a>                             - One argument exponential integral function.
+<a href="matlab:help exp">exp</a>                            - Symbolic matrix element-wise exponentiation.
+<a href="matlab:help expint">expint</a>                         - Exponential integral function.
+<a href="matlab:help expm">expm</a>                           - Symbolic matrix exponential.
+<a href="matlab:help factorIntegerPower">factorIntegerPower</a>             - Rewrite integer as power with maximal exponent
+<a href="matlab:help ei">ei</a>                             - 1-argument exponential integral function.
+<a href="matlab:help ei">ei</a>                             - 1-argument exponential integral function.
+30+31
+
+ans =
+
+    61
+
+a=61
+
+a =
+
+    61
+
+... b=sin(a), c=sinh(b)
+
+a=61; b=sin(a), c=sinh(b)
+
+b =
+
+   -0.9661
+
+
+c =
+
+   -1.1236
+
+a=8; b=sin(a), c=sinh(b)
+
+b =
+
+    0.9894
+
+
+c =
+
+    1.1588
+
+a=9; b=sin(a), c=sinh(b)
+
+b =
+
+    0.4121
+
+
+c =
+
+    0.4239
+
+a=10; b=sin(a), c=sinh(b)
+
+b =
+
+   -0.5440
+
+
+c =
+
+   -0.5713
+
+a=11; b=sin(a), c=sinh(b)
+
+b =
+
+   -1.0000
+
+
+c =
+
+   -1.1752
+
+a=12; b=sin(a), c=sinh(b)
+
+b =
+
+   -0.5366
+
+
+c =
+
+   -0.5627
+
+a=13; b=sin(a), c=sinh(b)
+
+b =
+
+    0.4202
+
+
+c =
+
+    0.4326
+
+a=14; b=sin(a), c=sinh(b)
+
+b =
+
+    0.9906
+
+
+c =
+
+    1.1608
+
+diary
